@@ -42,7 +42,7 @@ export function Contact() {
                     </button>
                 </form>
             </div>
-            <div className="absolute right-52 top-60 z-10">
+            <div className="absolute right-72 top-60 z-10">
                 <Image
                     src={logocontact}
                     alt="Contact Logo"
