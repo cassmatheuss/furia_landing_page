@@ -2,7 +2,7 @@ import Image from "next/image"
 import Logo from "../assets/FVRIA.png"
 export function Header() {
     return (
-        <header className="flex fixed z-40 bg-transparent items-center w-full backdrop-blur-md py-6">
+        <header className="flex fixed z-40 bg-transparent items-center w-full py-6">
             <div className="flex w-full items-center justify-center max-w-[1800px] px-[15px] mx-auto">
                 <div>
                     <div className="flex gap-[580px]">
