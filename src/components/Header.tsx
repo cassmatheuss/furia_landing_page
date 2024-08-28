@@ -5,27 +5,8 @@ import Logo from "../assets/FVRIA.png"
 import { useEffect, useState } from "react";
 export function Header() {
 
-    const [windowSize, setWindowSize] = useState({
-        width: window.innerWidth,
-      });
-    
-      useEffect(() => {
-        const handleResize = () => {
-          setWindowSize({
-            width: window.innerWidth,
-          });
-        };
-    
-        window.addEventListener("resize", handleResize);
-        
-        handleResize();
-    
-        return () => window.removeEventListener("resize", handleResize);
-      }, []);
-
-    
     return (
-        windowSize.width >= 1180 && <header className="backdrop-blur-md flex fixed z-40 bg-transparent items-center w-full py-6">
+        <header className="backdrop-blur-md hidden sm:hidden md:hidden lg:flex fixed z-40 bg-transparent items-center w-full py-6">
             <div className="flex w-full items-center justify-center max-w-[1800px] px-[15px] mx-auto">
                 <div>
                     <div className="flex gap-[580px]">
