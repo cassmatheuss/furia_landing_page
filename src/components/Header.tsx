@@ -3,14 +3,14 @@ import Logo from "../assets/FVRIA.png"
 export function Header() {
     return (
         <header className="flex items-center w-full bg-black py-6">
-            <div className="flex w-full max-w-[1800px] px-[15px] mx-auto">
+            <div className="flex w-full items-center justify-center max-w-[1800px] px-[15px] mx-auto">
                 <div>
-                    <div className="flex items-center gap-[580px]">
+                    <div className="flex gap-[580px]">
                         <Image src={Logo} alt="FURIA"/>
-                        <div className="items-center flex">
-                            <ul className="flex justify-center items-center gap-24">
+                        <div className=" flex">
+                            <ul className="flex items-center gap-24">
                                 <li >
-                                    <button className="flex justify-center items-center gap-3">
+                                    <button className="flex items-center gap-3">
                                         <a href="#home"><span className="text-white underline">Home</span></a>
                                     </button>
                                 </li>
