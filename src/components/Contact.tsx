@@ -11,7 +11,7 @@ export function Contact() {
   };
   return (
     <main
-      id="sobre"
+      id="contact"
       className="flex items-center justify-center w-full h-[926px] relative overflow-hidden bg-black"
     >
       <div className="z-10 w-[600px] pb-[0px]">
