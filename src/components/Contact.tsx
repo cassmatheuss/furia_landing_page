@@ -12,9 +12,9 @@ export function Contact() {
   return (
     <main
       id="contact"
-      className="flex items-center justify-center w-full h-[926px] relative overflow-hidden bg-black"
+      className="flex items-center sm:flex-row flex-col justify-center w-full h-[926px] relative overflow-hidden bg-black"
     >
-      <div className="z-10 w-[600px] pb-[0px]">
+      <div className="z-10 sm:w-[600px] w-full px-6 py-6 pb-[0px]">
         <Image
           src={tornese}
           alt="Tornese Background"
@@ -37,13 +37,13 @@ export function Contact() {
           />
           <button
             type="submit"
-            className="self-end px-6 py-2 rounded bg-gray-300 text-white font-semibold hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="self-end px-6 py-2 rounded bg-gray-300 text-white font-semibold hover:bg-blue-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Enviar
           </button>
         </form>
       </div>
-      <div className="pl-40 z-10">
+      <div className="sm:pl-40 z-10">
         <Image src={logocontact} alt="Contact Logo" className="w-auto h-auto" />
       </div>
     </main>

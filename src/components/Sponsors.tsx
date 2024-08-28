@@ -9,12 +9,12 @@ interface SponsorProps {
 
 export function Sponsors({image1, image2, image3}: SponsorProps) {
   return (
-    <div className="flex items-center justify-center bg-white w-full h-56">
-        <div className="w-[1120px] h-[300px] flex items-center justify-center gap-24">
+    <div className="flex sm:flex-row flex-col items-center justify-center gap-24 bg-white max-w-full h-full sm:h-56">
+        
             <Image src={image1} alt="Patrocinador 1"/>
             <Image src={image2} alt="Patrocinador 2"/>
             <Image src={image3} alt="Patrocinador 3"/>
-        </div>
+            <br/>
     </div>
   );
 }
