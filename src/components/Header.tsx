@@ -7,23 +7,25 @@ export function Header() {
                 <div>
                     <div className="flex items-center gap-[580px]">
                         <Image src={Logo} alt="FURIA"/>
-                        <ul className="flex items-center gap-24">
-                            <li >
-                                <button className="flex items-center gap-3">
-                                    <a href="#home"><span className="text-white underline">Home</span></a>
-                                </button>
-                            </li>
-                            <li >
-                                <button className="flex items-center gap-3">
-                                    <a href="#sobre"><span className="text-white underline">Sobre</span></a>
-                                </button>
-                            </li>
-                            <li >
-                                <button className="flex items-center gap-3">
-                                    <a href="#contact"><span className="text-white underline">Contato</span></a>
-                                </button>
-                            </li>
-                        </ul>
+                        <div className="items-center flex">
+                            <ul className="flex justify-center items-center gap-24">
+                                <li >
+                                    <button className="flex justify-center items-center gap-3">
+                                        <a href="#home"><span className="text-white underline">Home</span></a>
+                                    </button>
+                                </li>
+                                <li >
+                                    <button className="flex items-center gap-3">
+                                        <a href="#sobre"><span className="text-white underline">Sobre</span></a>
+                                    </button>
+                                </li>
+                                <li >
+                                    <button className="flex items-center gap-3">
+                                        <a href="#contact"><span className="text-white underline">Contato</span></a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
