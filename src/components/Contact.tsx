@@ -44,7 +44,7 @@ export function Contact() {
         </form>
       </div>
       <div className="sm:pl-40 z-10">
-        <Image src={logocontact} alt="Contact Logo" className="w-auto h-auto" />
+        <Image src={logocontact} alt="Contact Logo" className="w-auto h-auto hidden lg:block" />
       </div>
     </main>
   );
