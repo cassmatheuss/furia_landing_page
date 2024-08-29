@@ -6,7 +6,7 @@ import Sobre from "@/assets/Sobre.svg"
 export function About() {
 
   return (
-    <main id="sobre" className="flex items-center justify-center w-full h-[926px] relative overflow-y-auto bg-black">
+    <main id="sobre" className=" overflow-hidden flex items-center justify-center w-full h-[926px] relative overflow-y-auto bg-black">
       <div className="px-6 grid lg:pl-40 z-10 w-[1000px] pt-4">
       <Image
           src={Sobre}

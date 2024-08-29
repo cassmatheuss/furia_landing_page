@@ -15,3 +15,8 @@
     border-radius: 8px;
     background-color: #181A1B
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

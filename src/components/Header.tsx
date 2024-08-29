@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 export function Header() {
 
     return (
-        <header className="backdrop-blur-md hidden sm:hidden md:hidden lg:flex fixed z-40 bg-transparent items-center w-full py-6">
+        <header className="overflow-hidden backdrop-blur-md hidden sm:hidden md:hidden lg:flex fixed z-40 bg-transparent items-center w-full py-6">
             <div className="flex w-full items-center justify-center max-w-[1800px] px-[15px] mx-auto">
                 <div>
                     <div className="flex gap-[580px]">
