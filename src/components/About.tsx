@@ -13,7 +13,7 @@ export function About() {
           alt="Furia Background"
           className="pb-6 drop-shadow grid"
         />
-        <h1 className="text-sm backdrop-blur-sm text-white sm:text-2xl font-light tracking-wide max-w-[600px]">
+        <h1 className="text-md backdrop-blur-sm text-white sm:text-2xl font-light tracking-wide max-w-[600px]">
         Nossa história é de pioneirismo, grandes conquistas e tradição. Nosso presente é de 
         desejo, garra e estratégia. A pantera estampada no peito estampa também nosso futuro de glória. Nossos pilares de performance, lifestyle, conteúdo, 
         business, tecnologia e social são os principais constituintes do movimento FURIA, que representa uma unidade que respeita as individualidades e impacta 
