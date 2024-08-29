@@ -18,7 +18,7 @@ export function Hero() {
         />
         <h1 className="text-white text-2xl font-light tracking-wide">
             Uma organização de esports que nasceu do desejo de representar o Brasil no CS e conquistou muito mais que isso: 
-            expandimos nossas ligas, disputamos os principais títulos, adotamos novos objetivos eganhamos um propósito maior. 
+            expandimos nossas ligas, disputamos os principais títulos, adotamos novos objetivos e ganhamos um propósito maior. 
             Somos muito mais que o sucesso competitivo. Somos um movimento sociocultural.
         </h1>
       </div>
