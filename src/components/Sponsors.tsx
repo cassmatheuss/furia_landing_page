@@ -15,6 +15,7 @@ export function Sponsors({image1, image2, image3}: SponsorProps) {
             <Image src={image2} alt="Patrocinador 2"/>
             <Image src={image3} alt="Patrocinador 3"/>
             <br/>
+            
     </div>
   );
 }
