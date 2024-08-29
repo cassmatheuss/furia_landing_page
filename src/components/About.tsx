@@ -19,13 +19,6 @@ export function About() {
         business, tecnologia e social são os principais constituintes do movimento FURIA, que representa uma unidade que respeita as individualidades e impacta 
         positivamente os contextos em que se insere. Unimos pessoas e alimentamos sonhos dentro e fora dos jogos.
         </h1>
-        <div className="flex justify-center absolute h-full items-center">
-        <Image
-            src={Fallen}
-            alt="Furia Background"
-            className="-z-10 sm:hidden object-cover bg-cover"
-          />
-      </div>
       </div>
        
       <div>
