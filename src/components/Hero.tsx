@@ -8,7 +8,7 @@ export function Hero() {
         <Image
           src={BackgroundFuria}
           alt="Furia Background"
-          className="z-0 bg-cover"
+          className="z-0 bg-cover hidden sm:flex"
         />
       </div>
       <div className="grid px-6 sm:px-0 place-items-center z-10 w-[800px] pb-48">
