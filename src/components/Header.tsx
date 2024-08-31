@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import Logo from "../assets/FVRIA.png"
-import { useEffect, useState } from "react";
 export function Header() {
 
     return (
