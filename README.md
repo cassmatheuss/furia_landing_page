@@ -12,3 +12,6 @@ Tailwind CSS: Framework CSS utilitário para estilos rápidos e responsivos.
 
 # Site Hospedado
 Caso queira visitar o site já hospedado, aqui está o link: https://furia-landing-page.vercel.app/
+
+# Backend com Nestjs apenas de demonstração
+Foi feito também um backend simples, em que é possível fazer registrar nomes, emails e mensagens dos aplicantes da vaga. Não possui interação com esta landing page, mas achei interessante produzir um: https://github.com/cassmatheuss/back-end-furia
